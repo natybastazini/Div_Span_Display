@@ -1,0 +1,4 @@
+/* Habilitar a borda é uma boa prática para visualizar a ocupação do elemento do HTML */
+p,div{
+    border: 2px solid black;
+}
