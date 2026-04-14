@@ -1,4 +1,46 @@
 /* Habilitar a borda é uma boa prática para visualizar a ocupação do elemento do HTML */
-p,div{
+p, span{
     border: 2px solid black;
 }
+
+/* Configuração do Menu de Navegação Horizontal */
+ul{
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    background-color: lightpink;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10%;
+    color: black;
+}
+
+a:hover{
+    background-color: hotpink;
+    color: white;
+}
+
+/* Configuração da galeria utilizando a div */
+
+div{
+    border: 2px solid hotpink;
+    background-color: lightyellow;
+    color: deeppink;
+    margin: 5px;
+    /* 1/3 da tela */
+    width: 30%;
+    /* Elementos alinhados enquanto couber */
+    display: inline-block;
+}
+
+/* Alterar o tipo de exibição do elemento HTML */
+span{
+    display: inline-block;
+}
+
